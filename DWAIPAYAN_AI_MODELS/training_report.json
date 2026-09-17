@@ -1,0 +1,30 @@
+{
+  "duplication": {
+    "rows": 1296,
+    "encoder": "sentence-transformers/all-MiniLM-L6-v2",
+    "embedding_dim": 384,
+    "seconds": 106.85
+  },
+  "delay": {
+    "rows": 6000,
+    "roc_auc": 0.7211943236754456,
+    "average_precision": 0.5012042242498735,
+    "brier_raw": 0.1819697767496109,
+    "brier_calibrated": 0.1605347841978073,
+    "n_train": 4800,
+    "n_valid": 1200,
+    "positive_rate": 0.2575,
+    "seconds": 3.7
+  },
+  "compliance": {
+    "rows": 4000,
+    "n_train": 4000,
+    "raw_score_min": -0.7258651257897938,
+    "raw_score_max": -0.3733261769298558,
+    "flagged_rate_at_0_5": 0.052,
+    "flagged_rate_at_0_75": 0.0405,
+    "eval_roc_auc": 1.0,
+    "eval_average_precision": 1.0,
+    "seconds": 4.88
+  }
+}
